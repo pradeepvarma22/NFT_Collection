@@ -1,7 +1,7 @@
 export const WHITELIST_CONTRACT_ADDRESS = "0x7EE90d6C6055bEf844a274cfDC67f97116F7e825"
 
+export const METADATA_URL = "https://nft-collection-git-master-pradeepvarma22.vercel.app/api";
 
-export const METADATA_URL = "";
 
 export const ABI = [
     {

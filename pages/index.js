@@ -39,9 +39,9 @@ export default function Home() {
 
   useEffect(() => {
 
-    checkIfPresaleStarted()
+    checkIfPresaleStarted();
 
-  }, []);
+  }, [walletConnected]);
 
 
 
