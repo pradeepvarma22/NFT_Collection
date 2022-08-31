@@ -1,10 +1,10 @@
 import { ethers } from "ethers";
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import ConnectToWallet from '../../components/connect.js'
 import { WHITELIST_CONTRACT_ADDRESS, ABI } from '../../constants/whitelist/index'
 
 
-export default function app() {
+export default function MyApp() {
     const [walletAddress, setWalletAddress] = useState()
     const web3ModalRef = useRef()
     const [walletConnected, setWalletConnected] = useState(false);

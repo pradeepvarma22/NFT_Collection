@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 
 const providerOptions = {}
 
-export default function connectToWallet({walletAddress , setWalletAddress,walletConnected, setWalletConnected, setProvider, web3ModalRef}) {
+export default function ConnectToWallet({walletAddress , setWalletAddress,walletConnected, setWalletConnected, setProvider, web3ModalRef}) {
 
 
     

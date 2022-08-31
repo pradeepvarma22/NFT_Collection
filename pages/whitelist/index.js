@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import WhitelistAPP from "./App"
+import WhitelistAPP from "./myApp"
 
 export default function Home() {
   return (
