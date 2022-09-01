@@ -34,7 +34,7 @@ contract CryptoDevs is ERC721Enumerable,Ownable
         presaleStarted=true;
         presaleEnded = block.timestamp + 5 minutes;
     }
-
+ 
     function presaleMint() public payable onlyWhenPaused() {
         require(presaleStarted && block.timestamp < presaleEnded , "Presale Ended");
         require(whitelist.whiteListedAccounts(msg.sender), "You Are Not in whitelist");
